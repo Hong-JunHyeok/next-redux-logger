@@ -1,0 +1,28 @@
+{
+  "name": "next-redux-logger",
+  "version": "1.0.14",
+  "description": "This middleware is intended to observe the dispatches of actions in Next.js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Hong-JunHyeok",
+    "url": "https://github.com/Hong-JunHyeok"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "Redux",
+    "Logger",
+    "Next"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "treeify": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/treeify": "^1.0.0",
+    "typescript": "^4.3.2"
+  }
+}
